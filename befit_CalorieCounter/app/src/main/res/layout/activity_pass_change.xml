@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_dark"
+    tools:context=".PassChange">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/textView"
+        />
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Current password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:paddingLeft="20dp"
+        android:paddingTop="60dp"/>
+
+    <EditText
+        android:id="@+id/npass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="New password"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        android:paddingTop="60dp"/>
+
+    <EditText
+        android:id="@+id/cpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        android:paddingTop="60dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM"
+        android:onClick="OnConfirmClick"
+        android:layout_marginLeft="250dp"/>
+
+</LinearLayout>

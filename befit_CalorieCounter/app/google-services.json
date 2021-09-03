@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1068592860355",
+    "firebase_url": "https://befitcaloriecounter.firebaseio.com",
+    "project_id": "befitcaloriecounter",
+    "storage_bucket": "befitcaloriecounter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068592860355:android:283f255251519c4caee676",
+        "android_client_info": {
+          "package_name": "com.example.befit_caloriecounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068592860355-o2kt2h2msp5ren5v23b34j6a0sohf5ar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.befit_caloriecounter",
+            "certificate_hash": "6cad7d3b3cbbc759826f7cff9c7145ca1f7280fc"
+          }
+        },
+        {
+          "client_id": "1068592860355-pcijt2jepdvb6dav4ee0jgt04c5q8nq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUOlRx_RziKGWFDs82bYN0uFVqK8b-kIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068592860355-pcijt2jepdvb6dav4ee0jgt04c5q8nq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
